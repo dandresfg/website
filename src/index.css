@@ -35,3 +35,26 @@ nav {
 }
 
 /** Welcome **/
+.photo {
+  margin-top: 75px;
+}
+.photo img {
+  border: 1px solid #a0a0a0;
+  box-shadow: 2px 2px 4px 2px #ccc;
+}
+.welcome-msg {
+  padding: 20px 50px;
+  padding-bottom: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+.welcome-msg span {
+  margin: 10px 0;
+  font-size: 60px;
+  color: #323F52 !important;
+}
+.welcome-msg p {
+  max-width: 600px;
+  color: #919191;
+  line-height:1.5rem;
+  font-size: 18px;
+}

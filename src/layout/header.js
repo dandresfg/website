@@ -2,12 +2,12 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="container-fluid">
+    <header>
       <div className="row">
         <div className="container">
-          <nav className="row">
+          <nav className="row justify-content-center">
             <div class="name d-none d-md-inline-block">
-              <h2 class="">DIEGO ANDRÉS</h2>
+              <h2 class="">PORTAFOLIO WEB</h2>
             </div>
             <div class="menu">
               <a href="#aboutme">Sobre mí</a>
