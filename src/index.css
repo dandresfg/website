@@ -140,8 +140,8 @@ nav {
 
 /** Jobs **/
 #jobs {margin-top: -50px;}
-#jobs .card {position: relative;border: none;overflow:hidden;; margin: 20px; margin-bottom: 30px;}
-#jobs .card:hover {cursor: pointer;box-shadow: 1px 1px 5px 0px #ccc;}
+#jobs .card {position: relative;border: none; overflow:hidden; margin: 20px; margin-bottom: 30px;}
+#jobs .card:hover {cursor: pointer;}
 #jobs .card:hover .box {top: 0px;}
 
 #jobs .card-img-top {
@@ -162,27 +162,6 @@ nav {
   height: 300px !important;
 }
 
-@media (min-width: 768px) {
-  #jobs .card-img-top {
-    height: 375px;
-  }
-  #jobs .img2 {
-    height: 250px !important;
-  }
-  #jobs .card {
-    margin: 5px;
-  }
-}
-
-@media (min-width: 992px) {
-  #jobs .card-img-top {
-    height: 400px;
-  }
-  #jobs .img2 {
-    height: 250px !important;
-  }
-}
-
 #jobs .card .box {
   position: absolute;
   height: 100%;
@@ -193,7 +172,6 @@ nav {
   font-family: 'Roboto', sans-serif;
   transition: all .2s ease-in-out;
 }
-
 #jobs .box div {
   display: flex;
   align-items: center;
@@ -214,7 +192,6 @@ nav {
   font-size: 12px;
   font-weight: 400;
 }
-
 #jobs .card-body {
   position: absolute;
   bottom: 0px;
@@ -227,18 +204,48 @@ nav {
   font-weight: 600;
 }
 
+#jobs .card::before {
+  opacity: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,.65);
+  left: 0px;
+  top: 0px;
+  transition: all .4s ease-in-out;
+}
+#jobs .card:hover::before {
+  opacity: 0.75;
+  transform: rotateY(90deg);
+}
+
 @media (min-width: 544px) {
   .card-columns {
     column-count: 1;
   }
 }
-
 @media (min-width: 768px) {
+  #jobs .card-img-top {
+    height: 375px;
+  }
+  #jobs .img2 {
+    height: 250px !important;
+  }
+  #jobs .card {
+    margin: 5px;
+  }
   .card-columns {
     column-count: 2;
   }
 }
 @media (min-width: 992px) {
+  #jobs .card-img-top {
+    height: 400px;
+  }
+  #jobs .img2 {
+    height: 250px !important;
+  }
   .card-columns {
     column-count: 3;
   }
