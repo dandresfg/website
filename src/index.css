@@ -58,3 +58,81 @@ nav {
   line-height:1.5rem;
   font-size: 18px;
 }
+
+/** Effect  **/
+.flow-curve {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.flow-curve div {
+  position: absolute;
+  width:200%;
+  height: 250px;
+  border-radius:50%;
+  margin-top: -200px;
+  margin-left: -50%;
+}
+
+@media (min-width: 768px) {
+  .flow-curve div {
+    width:150%;
+    margin-left: -25%;
+    height: 200px;
+    margin-top: -160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .photo {
+    margin-top: 150px;
+  }
+  .flow-curve div{
+    width:125%;
+    margin-left: -12.5%;
+  }
+}
+
+/** Awards **/
+
+.round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block
+}
+.roundin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#awards {
+  background-color:#EFF3F9;
+  min-height: 200px;
+  margin-top: -70px;
+}
+#awards .card, #awards .card-body {
+  background-color: transparent !important;
+  border: none;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#awards .card-title {
+  font-weight: 400;
+  color: #323F52;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+#awards .card-text {
+  font-weight: 400;
+  font-size: 85%;
+  color: #666;
+}

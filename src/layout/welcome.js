@@ -4,12 +4,12 @@ const Welcome = () => {
   return (
     <div className="row">
       <div className="container">
-        <div class="row justify-content-center photo">
+        <div className="row justify-content-center photo">
           <img src="./resources/coding-1853305_1280.jpg" className="rounded-circle" width="250" height="250" alt=""/>
         </div>
-        <div class="welcome-msg text-center">
+        <div className="welcome-msg text-center">
           <span>¡Bienvenido!</span>
-          <p class="h6 mx-auto">
+          <p className="h6 mx-auto">
             Soy un desarrollador web fullStack, que
             disfruta del diseño de aplicaciones web y de
             la lógica detrás de cada proyecto.
