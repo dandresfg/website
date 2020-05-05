@@ -11,7 +11,7 @@ const Header = () => {
             </div>
             <div className="menu">
               <a href="#aboutme">Sobre mí</a>
-              <a href="#proyects">Proyectos</a>
+              <a href="#jobs">Proyectos</a>
               <a href="#contact">Contacto</a>
             </div>
           </nav>
