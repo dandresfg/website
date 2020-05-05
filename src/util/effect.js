@@ -17,18 +17,23 @@ const ended = {
     backgroundColor: '#EFF3F9'
   }
 }
-const Effect = ({start}) => {
+const Effect = ({start, curve}) => {
+  const toClass = curve ? "flow-curve" : "flow-diag";
   return (
     <React.Fragment>
       {
         start ?
-        (<div className="flow-curve" style={started.root}>
-          <div style={started.div}></div>
-         </div>)
+        (
+          <div className={toClass} style={started.root}>)
+            <div style={started.div}></div>
+          </div>
+        )
          :
-        (<div className="flow-curve" style={ended.root}>
-          <div style={ended.div}></div>
-         </div>)
+        (
+          <div className={toClass} style={ended.root}>
+            <div style={ended.div}></div>
+          </div>
+        )
       }
     </React.Fragment>
   )

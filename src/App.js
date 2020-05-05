@@ -5,9 +5,10 @@ import Header from './layout/header';
 import Welcome from './layout/welcome';
 import Awards from './layout/awards';
 import Proyects from './layout/jobs';
+import AboutMe from './layout/about';
 
 // Util
-import EffectCurve from './util/effectCurve';
+import Effect from './util/effect';
 
 function App() {
   return (
@@ -18,17 +19,26 @@ function App() {
         <Welcome/>
       </div>
 
-      <EffectCurve start />
+      <Effect curve start />
 
       <div className="container-fluid" id="awards">
         <Awards/>
       </div>
 
-      <EffectCurve />
+      <Effect curve />
 
       <div className="container-fluid" id="jobs">
         <Proyects/>
       </div>
+
+
+      <Effect start />
+
+        <div className="container-fluid" id="about">
+          <AboutMe/>
+        </div>
+
+      <Effect />
 
     </Fragment>
   );
