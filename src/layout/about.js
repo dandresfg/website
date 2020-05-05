@@ -3,18 +3,40 @@ import PropTypes from 'prop-types'
 
 const About = (props) => {
   return (
-    <div className="row">
+    <div>
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h3 className="pb-3 border-bottom">Sobre mí</h3>
+            <span className="h3 d-block py-2">Sobre mí</span>
           </div>
           <div className="col-12 text-justify">
-            <p className="py-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet euismod ligula. Phasellus efficitur dictum turpis, sit amet dictum turpis placerat vehicula. In quis enim vel enim tempus scelerisque a eget nibh. Aliquam vehicula tellus at mollis molestie. Vestibulum fringilla, tellus sed congue imperdiet, lorem eros elementum augue, rutrum congue ipsum tellus at velit. Nulla pellentesque cursus libero, eu mattis ex auctor eget. Sed auctor felis a lacinia sodales. Etiam molestie eros ut arcu condimentum, at venenatis nibh venenatis.
+            <p>
+              Hola, soy Diego, y te contaré un poco de lo que me gusta y de los proyectos en los que
+              he trabajado a lo largo de estos 3 años que tengo como progamador, bueno, sin más nada que agregar
+              a esta intrucción empezemos. Tengo 20 años, desde los 17 estoy estudiando programación. Todo
+              empieza como un hobbie y puede terminar en una pasión que no conocía pero que acabó convirtiéndose
+              en mi día a día. Mi primer lenguaje fue Java, me enamoré de él como un loco mientras aprendía PDO
+              (Programación Orientada a Objetos)
             </p>
             <p>
-              Donec rutrum condimentum ornare. Vestibulum nec euismod elit, quis venenatis dui. Mauris nec lacus id erat egestas bibendum. Duis nec molestie nibh, id placerat nisl. Aenean in scelerisque magna, sed consectetur massa. Mauris mollis ac sem eget congue. Praesent et congue nisi. Mauris justo tellus, finibus posuere lectus a, sagittis consectetur lorem. Integer placerat auctor aliquam. Aenean elementum lobortis consequat. Morbi non enim ut orci rhoncus egestas vitae eget quam. Duis semper nisl porttitor ipsum venenatis ornare. Nunc lobortis semper felis, tempor luctus leo consectetur a. Sed urna nisl, porttitor non ligula in, congue congue lorem. Cras elementum augue nisi, nec dignissim nibh posuere ut. Nunc vel tincidunt sem.
+              Siempre he sido muy curioso, así que no me quedé solo con Java, quería aprender más,
+              y fue cuando inicié en el mundo de las páginas web. Empecé sin saber cómo funcionaba
+              en absoluto un servidor o qué era un Hosting, pero me llené de preguntas a tal punto
+              que aún en día, creo que no me sobrará el tiempo para aprender todo lo que quiero saber.
+              Desde que entré al mundo moderno, decidí por empezar con PHP, un lenguaje de programación
+              de fácil aprendizaje y que era un arma de doble filo, que luego se convertiría en la cuna
+              de mis primeros proyectos.
+            </p>
+            <p>
+              Quería que mis aplicaciones y páginas fueran más bonitas, más que solo CSS. Ya sabía mucho
+              de páginas estáticas, de conexiones a bases de datos, pero quería subir a un nivel más.
+              Fue entonces cuando emprendí con Javascript y los front-end modernos. Empecé con React,
+              aunque lo dejé a medio camino, pero lo retomé cuando volvieron los famosos 'hooks' y desde entonces
+              me he fascinado por la programación en React, a tal punto de aprender Redux, Next para continuar
+              haciendo proyectos más complejos que demanden mejores soluciones.
+              De ahí pasé a NodeJS para convertirme en lo que sería un FullStack, una persona que maneja la experiencia
+              del usuario sin descuidar la base de datos, la lógica trasfondo de la aplicación, las conexiones,
+              los errores y mucho más. Fue entonces cuando mi emoción por seguir aprendiendo cada vez se volvía realidad.
             </p>
           </div>
         </div>

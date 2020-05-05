@@ -148,7 +148,7 @@ nav {
 /** Jobs **/
 
 /** Jobs **/
-#jobs {margin-top: -50px;margin-bottom: -100px;}
+#jobs {margin-top: -50px;margin-bottom: -50px;}
 #jobs .card {position: relative;border: none; overflow:hidden; margin: 20px; margin-bottom: 30px;}
 #jobs .card:hover {cursor: pointer;}
 #jobs .card:hover .box {top: 0px;}
@@ -224,10 +224,6 @@ nav {
   top: 0px;
   transition: all .4s ease-in-out;
 }
-#jobs .card:hover::before {
-  opacity: 0.75;
-  transform: rotateY(90deg);
-}
 
 @media (min-width: 544px) {
   .card-columns {
@@ -247,6 +243,10 @@ nav {
   .card-columns {
     column-count: 2;
   }
+  #jobs .card:hover::before {
+    opacity: 0.75;
+    transform: rotateY(90deg);
+  }
 }
 @media (min-width: 992px) {
   #jobs .card-img-top {
@@ -258,10 +258,27 @@ nav {
   .card-columns {
     column-count: 3;
   }
+  #jobs {
+    margin-bottom: -100px;
+  }
 }
 
 /* About me */
 #about {
   background-color: #EFF3F9;
   padding: 20px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+#about span {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+}
+
+#about p{
+  text-indent: 15px;
+  padding: 7.5px;
+  color:#687281;
+  filter: brightness(80%);
 }

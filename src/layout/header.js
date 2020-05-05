@@ -10,7 +10,7 @@ const Header = () => {
               <h2 className="">PORTAFOLIO WEB</h2>
             </div>
             <div className="menu">
-              <a href="#aboutme">Sobre mí</a>
+              <a href="#about">Sobre mí</a>
               <a href="#jobs">Proyectos</a>
               <a href="#contact">Contacto</a>
             </div>
