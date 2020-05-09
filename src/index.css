@@ -383,3 +383,44 @@ nav {
 }
 .founded:nth-child(1){margin-top: 2px;}
 .founded:hover {filter: grayscale(0%);}
+
+.labels span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 85%;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding-top: 3px;
+  position: absolute;
+  top: -5px;
+}
+
+.labels {
+  position: relative;
+}
+
+/** footer **/
+#backtohome {
+  position: absolute;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  background-color: #8A056C;
+  bottom: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#backtohome:hover {
+  animation: fillThrow 0.5s 1s infinite alternate-reverse;
+}
+
+@keyframes fillThrow {
+  to {
+    transform: rotateY(180deg);
+  }
+}

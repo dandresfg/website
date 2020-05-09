@@ -9,21 +9,20 @@ import ws from '../resources/whatsapp.png';
 
 const Contact = () => {
   const attr = [
-    {label: 'Diseño', amount: 75},
     {label: 'CSS', amount: 85},
-    {label: 'Bootstrap', amount: 88, alt: true},
-    {label: 'Javascript', amount: 83, alt: true},
-    {label: 'Vue', amount: 65},
-    {label: 'React', amount: 90, alt: true},
-    {label: 'Next', amount: 78},
-    {label: 'Firebase', amount: 70},
-    {label: 'MongoDB', amount: 75},
-    {label: 'SQL', amount: 95, alt: true},
-    {label: 'Node', amount: 73},
+    {label: 'Diseño', amount: 75},
     {label: 'Express', amount: 80},
-    {label: 'API', amount: 83, alt: true},
-    {label: 'MVC', amount: 75},
+    {label: 'Next', amount: 78},
+    {label: 'MongoDB', amount: 75},
+    {label: 'Node', amount: 73},
+    {label: 'Firebase', amount: 70},
+    {label: 'SocketIo', amount: 72, alt: true},
     {label: 'Redux', amount: 80, alt: true},
+    {label: 'RestAPI', amount: 83, alt: true},
+    {label: 'Javascript', amount: 83, alt: true},
+    {label: 'Bootstrap', amount: 88, alt: true},
+    {label: 'React', amount: 90, alt: true},
+    {label: 'SQL', amount: 95, alt: true},
   ]
   return (
     <div className="row pb-5 justify-content-center">
@@ -31,12 +30,12 @@ const Contact = () => {
         <div className="container">
             <div className="row">
 
-              <div className="col-12 col-lg-5">
+              <div className="col-12 col-lg-6">
                 <div className="row">
                   <div className="col-12 col-lg-10 mx-auto">
-                    <div className="card border-0">
+                    <div className="card border-0 pt-5 mb-5">
 
-                        <div className="card-img-top pt-5 pb-3">
+                        <div className="card-img-top pt-5 mt-5 pb-3">
                           <img src={git} className="d-block mx-auto rounded-circle"
                           width="150" height="150" alt="imagen referencia Diego Finol"/>
                         </div>
@@ -61,16 +60,14 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-7">
+              <div className="col-12 col-lg-6">
                 <div className="row">
                   <div className="w-100">
-
                     {
                       attr.map(attribute => (
                         <Skill label={attribute.label} amount={attribute.amount} key={attribute.label} alt={attribute.alt} />
                       ))
                     }
-
                   </div>
                 </div>
               </div>

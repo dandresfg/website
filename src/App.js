@@ -42,6 +42,15 @@ function App() {
         <Contact/>
       </div>
 
+      <div className="container-fluid pt-4 footer">
+        <div className="row pb-4">
+          <div className="container text-center">
+            <span className="small"> &copy; Diego Finol - 2020</span>
+            <a href="#home" id="backtohome" title="Volver arriba">Δ</a>
+          </div>
+        </div>
+      </div>
+
     </Fragment>
   );
 }
