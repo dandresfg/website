@@ -14,39 +14,39 @@ body {
 
 #home > span {
   position: absolute;
+  opacity: 0;
   width: 15px;
   height: 15px;
-  border: 2px solid #d5d5d5;
+  border: 2px solid #bbb;
   bottom: -5px;
-  border-radius: 50%;
   transform: rotateZ(45deg);
 }
-#home > span:nth-child(1){left: 25%;  animation: fillup 2.5s 1s linear infinite;}
-#home > span:nth-child(2){left: 35%;  animation: fillup 2.5s 0s linear infinite;}
+#home > span:nth-child(1){left: 25%;  animation: fillup 2.5s 2.5s linear infinite;}
+#home > span:nth-child(2){left: 35%;  animation: fillup 2.5s 0.5s linear infinite;}
 #home > span:nth-child(3){left: 45%;  animation: fillup 2.5s 1.5s linear infinite;}
-#home > span:nth-child(4){left: 55%;  animation: fillup 2.5s 3s linear infinite;}
+#home > span:nth-child(4){left: 55%;  animation: fillup 2.5s 1s linear infinite;}
 #home > span:nth-child(5){left: 65%;  animation: fillup 2.5s 2s linear infinite;}
-#home > span:nth-child(6){left: 75%;  animation: fillup 2.5s 1s linear infinite;}
+#home > span:nth-child(6){left: 75%;  animation: fillup 2.5s 0.75s linear infinite;}
 
 @keyframes fillup {
   to{
-    bottom: 45%;
+    bottom: 50%;
   }
-  from {
-    bottom: 5px;
+  0% {
+    opacity: 0.3;
   }
   10%{
-    opacity: 1;
+    opacity: 0.65;
     transform: rotateZ(60deg);
   }
   15%{
+    opacity: 1;
     transform: rotateZ(75deg);
   }
   20%{
     transform: rotateZ(90deg);
   }
   25%{
-    opacity: 1;
     transform: rotateZ(105deg);
   }
   30%{
@@ -352,7 +352,7 @@ nav {
 #about {
   background-color: #EFF3F9;
   padding: 20px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family:'Helvetica Neue', 'Roboto', sans-serif;
   font-weight: 400;
 }
 
@@ -367,3 +367,19 @@ nav {
   color:#687281;
   filter: brightness(80%);
 }
+
+
+/* contact */
+#contact .card-footer {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.founded {
+  filter: grayscale(50%);
+  animation: all .5s ease-in;
+  cursor: pointer;
+  position: relative;
+}
+.founded:nth-child(1){margin-top: 2px;}
+.founded:hover {filter: grayscale(0%);}
