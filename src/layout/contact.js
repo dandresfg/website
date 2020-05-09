@@ -10,15 +10,15 @@ import ws from '../resources/whatsapp.png';
 const Contact = () => {
   const attr = [
     {label: 'CSS', amount: 85},
-    {label: 'Diseño', amount: 75},
+    {label: 'Diseño', amount: 78},
     {label: 'Express', amount: 80},
     {label: 'Next', amount: 78},
     {label: 'MongoDB', amount: 75},
     {label: 'Node', amount: 73},
     {label: 'Firebase', amount: 70},
     {label: 'SocketIo', amount: 72, alt: true},
-    {label: 'Redux', amount: 80, alt: true},
-    {label: 'RestAPI', amount: 83, alt: true},
+    {label: 'Redux', amount: 78, alt: true},
+    {label: 'RestAPI', amount: 80, alt: true},
     {label: 'Javascript', amount: 83, alt: true},
     {label: 'Bootstrap', amount: 88, alt: true},
     {label: 'React', amount: 90, alt: true},

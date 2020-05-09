@@ -124,8 +124,7 @@ nav {
   margin-top: 75px;
 }
 .photo img {
-  border: 1px solid #a0a0a0;
-  box-shadow: 2px 2px 4px 2px #ccc;
+  box-shadow: 5px 5px 2px 1px #ddd;
 }
 .welcome-msg {
   padding: 20px 50px;

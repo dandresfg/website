@@ -1,12 +1,12 @@
 import React from 'react';
-
+import ToonMe from '../resources/toonme.png';
 const Welcome = () => {
   return (
     <div className="" style={{overflow: 'Hidden'}}>
       <div className="row">
         <div className="container">
           <div className="row justify-content-center photo">
-            <img src="./resources/coding-1853305_1280.jpg" className="rounded-circle" width="250" height="250" alt=""/>
+            <img src={ToonMe} className="rounded-circle" width="250" height="250" alt=""/>
           </div>
           <div className="welcome-msg text-center">
             <span>¡Bienvenido!</span>
