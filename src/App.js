@@ -56,7 +56,7 @@ function App() {
         <div className="row pb-4">
           <div className="container text-center">
             <span className="small">Este sitio fue hecho con ❤ para ustedes - &copy; 2020</span>
-            <a href="#home" id="backtohome" title="Volver arriba"><span role="img" aria-label="<3">⬆️</span></a>
+            <a href="#home" id="backtohome" className="d-none d-md-block" title="Volver arriba"><span>⬆️</span></a>
           </div>
         </div>
       </div>

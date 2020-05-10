@@ -28,7 +28,7 @@ const Contact = () => {
     {label: 'SQL', amount: 95, alt: true},
   ]
   return (
-    <div className="row pb-5 justify-content-center">
+    <div className="row pb-md-5 justify-content-center">
       <div>
         <div className="container">
             <div className="row">
@@ -36,9 +36,9 @@ const Contact = () => {
               <div className="col-12 col-lg-6">
                 <div className="row">
                   <div className="col-12 col-lg-10 mx-auto">
-                    <div className="card border-0 pt-5 mb-5">
+                    <div className="card border-0 pt-md-5 mb-5">
 
-                        <div className="card-img-top pt-5 mt-5 pb-3">
+                        <div className="card-img-top pt-md-5 mt-md-5 pb-3">
                           <img src={git} className="d-block mx-auto rounded-circle"
                           width="150" height="150" alt="imagen referencia Diego Finol"/>
                         </div>

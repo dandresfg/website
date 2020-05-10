@@ -7,8 +7,10 @@
       "**/node_modules/**"
     ],
     "rewrites": [
-      redirect: "*",
-      destination: "index.html"
+      {
+        "source": "*",
+        "destination": "/index.html"
+      }
     ]
   }
 }

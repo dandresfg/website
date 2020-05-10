@@ -2,8 +2,8 @@ import React from 'react';
 import ToonMe from '../resources/toonme.png';
 const Welcome = () => {
   return (
-    <div className="" style={{overflow: 'Hidden'}}>
-      <div className="row">
+    <div className="row justify-content-center" style={{overflow: 'Hidden'}}>
+      <div>
         <div className="container">
           <div className="row justify-content-center photo">
             <img src={ToonMe} className="rounded-circle" width="250" height="250" alt=""/>
