@@ -1,18 +1,17 @@
 import React from 'react'
-import Demo from '../utl.jpg';
-import Demo2 from '../utl2.jpg';
+import LiveChat from '../resources/works/livechat.jpg';
 
 
 import Workdone from '../util/workdone';
 
 const Proyects = () => {
   const Jobs = [
-    { url: Demo2, name: 'My website', tags:['React','Bootstrap', 'Responsive Design'], alt: true},
-    { url: Demo, name: 'My website', tags:['React','Bootstrap', 'Responsive Design']},
-    { url: Demo, name: 'My website', tags:['React','Bootstrap', 'Responsive Design']},
-    { url: Demo2, name: 'My website', tags:['React','Bootstrap', 'Responsive Design'], alt: true },
-    { url: Demo2, name: 'My website', tags:['React','Bootstrap', 'Responsive Design'], alt: true },
-    { url: Demo, name: 'My website', tags:['React','Bootstrap', 'Responsive Design']}
+    { url: LiveChat, name: 'Live Chat', tags:['React','Node','SocketIo','Material-UI'], to:'https://sleepy-goldwasser-d1f960.netlify.app/', alt: true},
+    //{ url: LiveChat, name: 'My website', tags:['React','Bootstrap', 'Responsive Design']},
+    //{ url: LiveChat, name: 'My website', tags:['React','Bootstrap', 'Responsive Design']},
+    //{ url: LiveChat, name: 'My website', tags:['React','Bootstrap', 'Responsive Design'], alt: true },
+    //{ url: LiveChat, name: 'My website', tags:['React','Bootstrap', 'Responsive Design'], alt: true },
+    //{ url: LiveChat, name: 'My website', tags:['React','Bootstrap', 'Responsive Design']}
   ]
   return (
     <div className="row">
@@ -20,7 +19,7 @@ const Proyects = () => {
         <div className="card-columns">
           {
             Jobs.map((Job, _) => (
-              <Workdone url={Job.url} name={Job.name} tags={Job.tags} alt={Job.alt} key={_}/>
+              <Workdone url={Job.url} name={Job.name} tags={Job.tags} alt={Job.alt} to={Job.to} key={_}/>
             ))
           }
         </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Workdone = ({name, url, tags, alt}) => {
+const Workdone = ({name, url, tags, alt, to}) => {
   return (
-      <div className="card">
+      <a href={to} target="blank" className="card">
 
         <img src={url} className={alt === true ? 'card-img-top img2':'card-img-top'} alt="..."/>
 
@@ -27,7 +27,7 @@ const Workdone = ({name, url, tags, alt}) => {
           <span>{name.toUpperCase()}</span>
         </div>
 
-      </div>
+      </a>
   )
 }
 
@@ -35,6 +35,7 @@ Workdone.propTypes = {
   name: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
+  to: PropTypes.string.isRequired,
   alt: PropTypes.bool
 }
 

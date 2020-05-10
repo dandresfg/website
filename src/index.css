@@ -232,7 +232,7 @@ nav {
 /** Jobs **/
 
 /** Jobs **/
-#jobs {margin-top: -50px;margin-bottom: -50px;}
+#jobs {margin-top: -50px;margin-bottom: -50px;min-height: 400px;}
 #jobs .card {position: relative;border: none; overflow:hidden; margin: 20px; margin-bottom: 30px;}
 #jobs .card:hover {cursor: pointer;}
 #jobs .card:hover .box {top: 0px;}
@@ -272,6 +272,7 @@ nav {
   height: 100%;
 }
 #jobs h5 {
+  color: black;
   word-wrap: break-word;
   white-space: pre-line;
   text-align: center;
@@ -284,6 +285,11 @@ nav {
   margin-top: 20px;
   font-size: 12px;
   font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  background-color: rgba(0,0,0,.58);
+  border-radius: 5px;
+  padding: 2px 5px;
 }
 #jobs .card-body {
   position: absolute;

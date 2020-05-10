@@ -52,15 +52,20 @@ const Contact = () => {
 
                         <div className="card-footer">
                           <div className="row justify-content-center">
-                            <a href="#!" className="btn btn-primary">Descargar CV</a>
+                            <a href="https://drive.google.com/open?id=1atnqhK_Mokgxck-OqADv5abUaNkmWHzP" target="blank" className="btn btn-primary">Descargar CV</a>
                           </div>
                         </div>
 
                         <div className="card-footer">
                           <div className="row justify-content-center">
-                            <img src={ws} className="founded" width="26" height="26" alt="redes sociales diego finol" />
-                            <img src={fb} className="founded p-1 mx-3" width="30" height="30" alt="redes sociales diego finol" />
-                            <img src={git} className="founded p-1" width="30" height="30" alt="redes sociales diego finol" />
+                            <a href="https://wa.me/584246099246"><img src={ws} className="founded" width="26" height="26" alt="redes sociales diego finol" /></a>
+
+                            <a href="https://www.facebook.com/DandresFG">
+                              <img src={fb} className="founded p-1 mx-3" width="30" height="30" alt="redes sociales diego finol" />
+                            </a>
+                            <a href="https://github.com/dandresfg">
+                              <img src={git} className="founded p-1" width="30" height="30" alt="redes sociales diego finol" />
+                            </a>
                           </div>
                         </div>
 
