@@ -10,32 +10,30 @@ const About = () => {
           </div>
           <div className="col-12 text-justify">
             <p>
-              Hola, soy Diego, y te contaré un poco de lo que me gusta y de los proyectos en los que
-              he trabajado a lo largo de estos 3 años que tengo como progamador, bueno, sin más nada que agregar
-              a esta intrucción empezemos. Tengo 20 años, desde los 17 estoy estudiando programación. Todo
-              empieza como un hobbie y puede terminar en una pasión que no conocía pero que acabó convirtiéndose
-              en mi día a día. Mi primer lenguaje fue Java, me enamoré de él como un loco mientras aprendía PDO
-              (Programación Orientada a Objetos)
+              ¡Hey soy Diego!, espero te estés dando un buen paseo, creé esta web para
+              hablar un poco más de mí, de lo que hago, de lo que soy y sobre todo, de lo que me gusta.
+              Está hecha en React, así es, una tecnología muy famosa creada por Facebook para hacer
+              de la experiencia de interfaces de usuario una maravillla. Este sitio cuenta todo lo que
+              he realizado en cada uno de mis proyectos, y es una prueba firme de que la tecnología debe hablar
+              por cada uno de nosotros. Desde que tengo memoria, sé que toco la computadora como si fuera
+              mi biberón de chiquito, ha sido un placer dañar máquinas en mi proceso creativo hasta llegar al punto
+              en el que estoy.
             </p>
             <p>
-              Siempre he sido muy curioso, así que no me quedé solo con Java, quería aprender más,
-              y fue cuando inicié en el mundo de las páginas web. Empecé sin saber cómo funcionaba
-              en absoluto un servidor o qué era un Hosting, pero me llené de preguntas a tal punto
-              que aún en día, creo que no me sobrará el tiempo para aprender todo lo que quiero saber.
-              Desde que entré al mundo moderno, decidí por empezar con PHP, un lenguaje de programación
-              de fácil aprendizaje y que era un arma de doble filo, que luego se convertiría en la cuna
-              de mis primeros proyectos.
+              Tengo 20 años, y lo que más he aprendido a lo largo de este tiempo, es que uno peca por lo que no sabe,
+              por lo que me dedico a estudiar cada día, soy autodidacta y proactivo, no me gusta quedarme sin entender
+              cómo funcionan todas las cosas que me rodean, la lógica, los algorítmos, las matemáticas, sé que podría
+              decirse que soy un nerd, pero no me gusta ser un tonto, así qué, les pregunto, ¿Son nerds o tontos?
             </p>
             <p>
-              Quería que mis aplicaciones y páginas fueran más bonitas, más que solo CSS. Ya sabía mucho
-              de páginas estáticas, de conexiones a bases de datos, pero quería subir a un nivel más.
-              Fue entonces cuando emprendí con Javascript y los front-end modernos. Empecé con React,
-              aunque lo dejé a medio camino, pero lo retomé cuando volvieron los famosos 'hooks' y desde entonces
-              me he fascinado por la programación en React, a tal punto de aprender Redux, Next para continuar
-              haciendo proyectos más complejos que demanden mejores soluciones.
-              De ahí pasé a NodeJS para convertirme en lo que sería un FullStack, una persona que maneja la experiencia
-              del usuario sin descuidar la base de datos, la lógica trasfondo de la aplicación, las conexiones,
-              los errores y mucho más. Fue entonces cuando mi emoción por seguir aprendiendo cada vez se volvía realidad.
+              Tengo pasión por la escritura, me encanta escribir en mi tiempo libre, me gusta expresarme
+              y ser una persona honesta en todo lo que pueda, por eso siempre busco la verdad, que todo quede a la luz
+              me gusta ser ordenado con lo que hago, encontrar las mejores prácticas y las soluciones más eficientes.
+              Aunque errar es de humanos, y de vez en cuando uno se encuentra un obstáculo. Soy paciente, aunque sé que mis
+              problemas no se resolverán solos, me gusta pensar en infinitas soluciones a mis problemas y encontrar la mejor.
+              No me rindo por muy difícil que parezca, y a veces la solución es más fácil de lo que parece. Estudio el diseño web
+              desde hace mucho tiempo, aunque los colores nunca fueron lo mío, me gusta más la lógica, el diseño de infraestructura
+              y los problemas más difíciles.
             </p>
           </div>
         </div>

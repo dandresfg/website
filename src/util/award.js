@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Award = ({label, content, bg}) => {
+const Award = ({label, content, bg, svg}) => {
   return (
     <div className="card my-3 my-lg-0">
       <div className="justify-content-center">
         <div className="round" style={bg}>
           <div className="roundin">
-            <span style={{fontSize: 28}}>&Delta;</span>
+            {svg}
           </div>
         </div>
       </div>
@@ -22,7 +22,8 @@ const Award = ({label, content, bg}) => {
 Award.propTypes = {
   label: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
-  bg: PropTypes.object.isRequired
+  bg: PropTypes.object.isRequired,
+  svg: PropTypes.any.isRequired
 }
 
 export default Award;

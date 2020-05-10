@@ -1,15 +1,17 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, Suspense} from 'react';
+
+// Util
+import Effect from './util/effect';
 
 // Layout
 import Header from './layout/header';
 import Welcome from './layout/welcome';
-import Awards from './layout/awards';
-import Proyects from './layout/jobs';
-import AboutMe from './layout/about';
-import Contact from './layout/contact';
 
-// Util
-import Effect from './util/effect';
+// Lazy
+const Awards = React.lazy(()=> import('./layout/awards'));
+const AboutMe = React.lazy(()=> import('./layout/about'));
+const Contact = React.lazy(()=> import('./layout/contact'));
+const Jobs = React.lazy(()=>import('./layout/jobs'));
 
 function App() {
   return (
@@ -23,34 +25,41 @@ function App() {
 
       <Effect curve start />
       <div className="container-fluid" id="awards">
-        <Awards/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Awards/>
+        </Suspense>
       </div>
       <Effect curve />
 
       <div className="container-fluid" id="jobs">
-        <Proyects/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Jobs/>
+        </Suspense>
       </div>
 
 
       <Effect start />
         <div className="container-fluid" id="about">
-          <AboutMe/>
+          <Suspense fallback={<div>Loading...</div>}>
+            <AboutMe/>
+          </Suspense>
         </div>
       <Effect />
 
       <div className="container-fluid" id="contact">
-        <Contact/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Contact/>
+        </Suspense>
       </div>
 
       <div className="container-fluid pt-4 footer">
         <div className="row pb-4">
           <div className="container text-center">
-            <span className="small"> &copy; Diego Finol - 2020</span>
-            <a href="#home" id="backtohome" title="Volver arriba">Δ</a>
+            <span className="small">Este sitio fue hecho con ❤ para ustedes - &copy; 2020</span>
+            <a href="#home" id="backtohome" title="Volver arriba"><span role="img" aria-label="<3">⬆️</span></a>
           </div>
         </div>
       </div>
-
     </Fragment>
   );
 }

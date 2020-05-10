@@ -2,6 +2,9 @@ import React from 'react';
 
 import Skill from '../util/skill';
 
+// css
+import FadeIn from 'react-fade-in';
+
 // Social
 import fb from '../resources/fb-logo.png';
 import git from '../resources/gitlogo.png';
@@ -49,6 +52,12 @@ const Contact = () => {
 
                         <div className="card-footer">
                           <div className="row justify-content-center">
+                            <a href="#!" className="btn btn-primary">Descargar CV</a>
+                          </div>
+                        </div>
+
+                        <div className="card-footer">
+                          <div className="row justify-content-center">
                             <img src={ws} className="founded" width="26" height="26" alt="redes sociales diego finol" />
                             <img src={fb} className="founded p-1 mx-3" width="30" height="30" alt="redes sociales diego finol" />
                             <img src={git} className="founded p-1" width="30" height="30" alt="redes sociales diego finol" />
@@ -63,11 +72,13 @@ const Contact = () => {
               <div className="col-12 col-lg-6">
                 <div className="row">
                   <div className="w-100">
+                    <FadeIn>
                     {
                       attr.map(attribute => (
                         <Skill label={attribute.label} amount={attribute.amount} key={attribute.label} alt={attribute.alt} />
                       ))
                     }
+                    </FadeIn>
                   </div>
                 </div>
               </div>

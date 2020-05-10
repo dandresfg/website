@@ -363,6 +363,7 @@ nav {
 #about p{
   text-indent: 15px;
   padding: 7.5px;
+  letter-spacing: 0.2px;
   color:#687281;
   filter: brightness(80%);
 }
@@ -402,9 +403,9 @@ nav {
 #backtohome {
   position: absolute;
   right: 0px;
-  width: 40px;
-  height: 40px;
-  background-color: #8A056C;
+  width: 50px;
+  height: 50px;
+  background-color: #025AA5;
   bottom: -10px;
   display: flex;
   align-items: center;
@@ -412,6 +413,8 @@ nav {
   color: white;
   text-decoration: none;
   border-radius: 50%;
+  font-size: 30px;
+  padding: 3px;
 }
 
 #backtohome:hover {
