@@ -52,12 +52,6 @@ const Contact = () => {
 
                         <div className="card-footer">
                           <div className="row justify-content-center">
-                            <a href="https://drive.google.com/open?id=1atnqhK_Mokgxck-OqADv5abUaNkmWHzP" target="blank" className="btn btn-primary">Descargar CV</a>
-                          </div>
-                        </div>
-
-                        <div className="card-footer">
-                          <div className="row justify-content-center">
                             <a href="https://wa.me/584246099246"><img src={ws} className="founded" width="26" height="26" alt="redes sociales diego finol" /></a>
 
                             <a href="https://www.facebook.com/DandresFG">
