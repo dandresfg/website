@@ -20,12 +20,6 @@ const About = () => {
               en el que estoy.
             </p>
             <p>
-              Tengo 20 años, y lo que más he aprendido a lo largo de este tiempo, es que uno peca por lo que no sabe,
-              por lo que me dedico a estudiar cada día, soy autodidacta y proactivo, no me gusta quedarme sin entender
-              cómo funcionan todas las cosas que me rodean, la lógica, los algorítmos, las matemáticas, sé que podría
-              decirse que soy un nerd, pero no me gusta ser un tonto, así qué, les pregunto, ¿Son nerds o tontos?
-            </p>
-            <p>
               Tengo pasión por la escritura, me encanta escribir en mi tiempo libre, me gusta expresarme
               y ser una persona honesta en todo lo que pueda, por eso siempre busco la verdad, que todo quede a la luz
               me gusta ser ordenado con lo que hago, encontrar las mejores prácticas y las soluciones más eficientes.
